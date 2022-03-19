@@ -5,7 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="test, My Home">
-    <meta name="description" content="">
+    <meta name="description" content="1.云使能技术主要包括哪些技术组件？简要说明其关键特征。（1）宽带网络和Internet架构云用户和云提供者通常利用Internet进行通信，Internet以无中心的供给和管理模型为基础，不受任何集中式实体的控制。
+网络互联架构的主要组件">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -463,7 +464,61 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h3 id="1-云使能技术主要包括哪些技术组件？简要说明其关键特征。"><a href="#1-云使能技术主要包括哪些技术组件？简要说明其关键特征。" class="headerlink" title="1.云使能技术主要包括哪些技术组件？简要说明其关键特征。"></a><strong>1.云使能技术主要包括哪些技术组件？简要说明其关键特征。</strong></h3><h5 id="（1）宽带网络和Internet架构"><a href="#（1）宽带网络和Internet架构" class="headerlink" title="（1）宽带网络和Internet架构"></a>（1）宽带网络和Internet架构</h5><p>云用户和云提供者通常利用Internet进行通信，Internet以无中心的供给和管理模型为基础，不受任何集中式实体的控制。</p>
+<p>网络互联架构的主要组件是使用网络路由器和交换机的无连接分组交换与基于路由器的互联。网络带宽和延迟是影响QoS的因素，而网络拥塞对其有巨大影响。</p>
+<h5 id="（2）数据中心化技术"><a href="#（2）数据中心化技术" class="headerlink" title="（2）数据中心化技术"></a>（2）数据中心化技术</h5><p>数据中心是专门的IT基础设施，用于集中存放IT资源，如服务器、数据库和软件系统。</p>
+<p>数据中心的IT硬件通常由标准商用服务器构成，其具有增强的计算能力和存储容量，而存储系统技术则包括了磁盘阵列和存储虚拟化。增加存储容量的技术包括DAS(Direct Attached Storage，直接连接存储，只用于一台主机服务器)、SAN和NAS。</p>
+<p>计算硬件技术包括机架式服务器阵列和多核CPU架构。专用的高容量网络硬件和技术(如内容感知的路由、LAN和SAN光网络及NAS网关等)可以提高网络互联性。</p>
+<h5 id="（3）虚拟化技术"><a href="#（3）虚拟化技术" class="headerlink" title="（3）虚拟化技术"></a>（3）虚拟化技术</h5><p>虚拟化是将物理IT资源转换为虚拟IT资源的过程</p>
+<p>–服务器(server)：一个物理服务器可以抽象为一个虚拟服务器。</p>
+<p>–存储设备(storage)：一个物理存储设备可以抽象为一个虚拟存储设备或一个虚拟磁盘。</p>
+<p>–网络(network)：物理路由器和交换机可以抽象为逻辑网络，如VLAN。</p>
+<p>–电源(power)：一个物理UPS和电源分配单元可以抽象为通常意义上的虚拟UPS</p>
+<h6 id="虚拟化的特点"><a href="#虚拟化的特点" class="headerlink" title="虚拟化的特点"></a>虚拟化的特点</h6><p>在虚拟服务器上运行的客户操作系统和应用软件，都不会感知到虚拟化的过程</p>
+<p>硬件无关性</p>
+<p>在一个IT硬件平台上配置操作系统和安装应用软件会导致许多软硬件依赖关系，非虚拟环境下硬件的变化，将导致操作系统的重新配置。</p>
+<p>隔离</p>
+<p> 在同一服务器上的虚拟机之间互相隔离，改变了之前单台物理机服务器只能挂单个应 用的格局。</p>
+<p>服务器整合（分区）</p>
+<p>虚拟化软件提供的协调功能，可以在一个虚拟主机上同时创建多个虚拟服务器</p>
+<p>虚拟化技术允许不同虚拟服务器共享一个物理服务器，这就是服务器整合(server consolidation)。</p>
+<h5 id="（4）Web技术"><a href="#（4）Web技术" class="headerlink" title="（4）Web技术"></a>（4）Web技术</h5><p>WWW是由通过Internet访问的互联IT资源构成的系统，其两个基本组件是Web浏览器客户端和Web服务器。Web技术架构由三个基本元素组成：</p>
+<p>–统一资源定位符(Uniform Resource Locator, URL)：一个标准语法，用于创建指向Web资源的标识符，URL通常由逻辑网络位置构成。</p>
+<p>–超文本传输协议(Hypertext Transfer Protocol, HTTP)：通过WWW交换内容和数据的基本通信协议，通常，URL通过HTTP传送。</p>
+<p>–标记语言(Markup Language, HTML&#x2F;XML)：标记语言提供一种轻量级方法来表示以Web为中心的数据和元数据。HTML(表示Web页面的样式)和XML(允许定义词汇表，以便通过元数据对Web数据赋以意义)是两种主要标记语言。</p>
+<h5 id="（5）多租户技术"><a href="#（5）多租户技术" class="headerlink" title="（5）多租户技术"></a>（5）多租户技术</h5><p>多租户应用的一般特点：</p>
+<p>–使用隔离(usage isolation)：一个租户的使用行为不会影响到该应用对其他租户可用性和性能。</p>
+<p>–数据安全(data security)：租户不能访问其他租户的数据。</p>
+<p>–可恢复性(recovery)：每个租户的数据备份和恢复过程都是分别执行的。</p>
+<p>–应用升级(application upgrade)：共享软件构件的同步升级不会对租户造成负面影响。</p>
+<p>–可扩展性(scalability)：根据现有租户增长的使用需求或租户数量增加来扩展应用。</p>
+<p>–使用计费(metered usage)：根据租户实际使用的应用处理和功能来收费。</p>
+<p>–数据层隔离(data tier isolation)：租户拥有独立的且与其他租户隔离的数据库、表格和模式。</p>
+<h5 id="（6）服务技术"><a href="#（6）服务技术" class="headerlink" title="（6）服务技术"></a>（6）服务技术</h5><h6 id="Web服务："><a href="#Web服务：" class="headerlink" title="Web服务："></a>Web服务：</h6><p>–Web服务描述语言(Web Service Description Language)：这个标记语言用于创建WSDL定义，该定义界定了Web服务的应用编程接口(API)，包括其独立的操作(功能)和每个操作的输入输出信息。</p>
+<p>–XML模式描述语言(XML scheme definition language)：Web服务交换的消息必须用XML表示，XML模式定义了基本XML的输入输出消息的数据结构，这些消息由Web服务来交换。</p>
+<p>–SOAP(Simple Object Access Protocol)：前身为简单对象访问协议，这个标准定义了Web服务交换的请求和响应消息的通用消息格式。SOAP消息由报体和报头组成，报体是主要消息内容，报头一般包含运行时可处理的元数据。</p>
+<p>–统一描述、发现和集成(Universal Description, Discovery, and Integration, UDDI)：该标准规定服务要进行注册，将WSDL定义发布到服务目录，以便用户发现该服务。</p>
+<h6 id="REST服务："><a href="#REST服务：" class="headerlink" title="REST服务："></a>REST服务：</h6><p>按照一组约束条件设计，没有独立的技术接口，而是采用通用技术，一般使用HTTP方法建立。有5个约束设计：</p>
+<p>​    –使用客户&#x2F;服务器模型。客户和服务器之间通过一个统一的接口来互相通讯。</p>
+<p>​    –层次化的系统。在一个REST系统中，客户端并不会固定地与一个服务器打交道。</p>
+<p>​    –无状态。在一个REST系统中，服务端并不会保存有关客户的任何状态。也就是说，客户端自身负责    用户状态的维持，并在每次发送请求时都需要提供足够的信息。</p>
+<p>​    –可缓存。REST系统需要能够恰当地缓存请求，以尽量减少服务端和客户端之间的信息传输，以提高    性能。</p>
+<h6 id="统一的接口："><a href="#统一的接口：" class="headerlink" title="统一的接口："></a>统一的接口：</h6><p>一个REST系统需要使用一个统一的接口来完成子系统之间以及服务与用户之间的交互。这使得REST系统中的各个子系统可以独自完成演化</p>
+<h6 id="服务代理："><a href="#服务代理：" class="headerlink" title="服务代理："></a>服务代理：</h6><p>是事件驱动程序，在运行时拦截消息。</p>
+<p>​    –主动服务代理：拦截并读取消息内容后，会采取一定措施，通常是修改消息的内容，或者修改消息    路径。</p>
+<p>​    –被动服务代理：读取消息后，不修改内容，而是捕捉特定内容以便进行监控、记录或报告。</p>
+<p>​    服务中间件：</p>
+<p>​    –企业服务总线(ESB)</p>
+<p>​    –业务流程平台</p>
+<p>基于Web的服务(如Web服务和REST服务)依靠非专有通信和技术接口定义来建立基于Web技术的标准通信框架。</p>
+<p>服务代理提供事件驱动运行时处理，适用于云中大量的功能。许多代理都自动部署在操作系统和基于云的产品中。</p>
+<p>服务中间件(如ESB和业务流程平台)可以在云上部署。</p>
+<h3 id="2-列举至少三种虚拟化软件，并概括其特点。"><a href="#2-列举至少三种虚拟化软件，并概括其特点。" class="headerlink" title="2.列举至少三种虚拟化软件，并概括其特点。"></a><strong>2.列举至少三种虚拟化软件，并概括其特点。</strong></h3><p>常用的有VMware（VMware workstation（适合单台计算机使用）、VMware vsphere（VMware esxi ）、VMware Fusion（Mac）） ， Oracle VM VirtualBox，Xenserver；还有Microsoft Hyper-V、KVM、华为Fusion Sphere等。</p>
+<p>VMware ESXi：侧重于服务器虚拟化，技术较成熟，功能也多，支持虚机系统多；</p>
+<p>Xenserver重点在于桌面虚拟化，性价比高，网络性能好，适用于快速与大规模部署，支持系统也相对   较多；</p>
+<p>Hype-V 微软开发，起步相对较晚，对于MS的系统较为支持。</p>
+<p>Oracle VM VirtualBox 开源，支持的系统种类繁多<br>:smile:</p>
+
                 
             </div>
             <hr/>
